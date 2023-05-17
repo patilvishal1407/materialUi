@@ -1,38 +1,61 @@
-.App {
+/* .App {
   text-align: center;
+  background-size: fill;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+label{
+  text-align: left;
+} */
+/* .formgroup{
+  margin: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  label{
+    display: inline-block;
+    width: auto;
+    text-align: left;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  form{
+    background-size: cover;
+    display: inline-block;
+    width: 450px;
+} */
+  /* .GenderCheckbox{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+   margin-left: 50%;
+  } */
+
+  /* .GenderLabel{
+    margin-left: -180px;
+  } */
+
+  ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;  
 }
 
-.App-link {
-  color: #61dafb;
+  ul.navbar li {
+    display: inline-block;
+    margin-right: 10px;   
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  ul.navbar li a {
+    display: block;
+    padding: 15px;
+    font-size: large;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
   }
-  to {
-    transform: rotate(360deg);
+  
+  ul.navbar li a:hover {
+    background-color: rgba(63, 21, 214, 0.2);
+    border: 0.1px solid rgba(63, 21, 214, 0.2);
+    border-radius: 20px;
+     transition: 1s;
   }
-}
+
+  /* .SignUpButton{
+    margin: 2% 40% ;
+  }
+  .SendBtn{
+  margin: 2% 40% ;
+  } */
